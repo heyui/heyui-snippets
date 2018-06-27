@@ -2,8 +2,18 @@
     "name": "heyui-snippets",
     "displayName": "heyui-snippets",
     "description": "HeyUI Component Snippets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "vvpvvp",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/heyui/heyui-snippets/issues",
+		"email": "alias8516@sina.com.cn"
+	},
+	"homepage": "https://github.com/heyui/heyui-snippets/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/heyui/heyui-snippets"
+	},
     "engines": {
         "vscode": "^1.24.0"
     },

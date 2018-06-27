@@ -14,11 +14,11 @@ visit [heyui.top](http://www.heyui.top).
 
 ### Vue Snippets
 
-![vue snippets](https://raw.github.com/heyui/repositpry/master/heyui-snippets/imgs/vue.gif)
+![vue snippets](https://raw.githubusercontent.com/heyui/heyui-snippets/master/imgs/vue.gif)
 
 
 ### HeyUI Snippets
-![component snippets](https://raw.github.com/heyui/repositpry/master/heyui-snippets/imgs/component.gif)
+![component snippets](https://raw.githubusercontent.com/heyui/heyui-snippets/master/imgs/component.gif)
 
 
 ### Component Snippets List
