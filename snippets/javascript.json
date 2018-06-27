@@ -9,9 +9,14 @@
 		"body": "this.\\$Notice('${1}')",
 		"description": "heyui $Notice"
 	},
+	"$Modal": {
+		"prefix": "this.$Modal",
+		"body": "this.\\$Modal('${1}')",
+		"description": "heyui $Modal"
+	},
 	"$Confirm": {
 		"prefix": "this.$Confirm",
-		"body": "this.\\$Confirm('${1}').then(()=>{${2})",
+		"body": "this.\\$Confirm('${1}').then(()=>{${2}})",
 		"description": "heyui $Confirm"
 	},
 	"$Loading": {
