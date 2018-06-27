@@ -2,9 +2,10 @@
     "name": "heyui-snippets",
     "displayName": "heyui-snippets",
     "description": "HeyUI Component Snippets",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "vvpvvp",
-	"license": "MIT",
+    "license": "MIT",
+    "icon": "imgs/heyui.png",
 	"bugs": {
 		"url": "https://github.com/heyui/heyui-snippets/issues",
 		"email": "alias8516@sina.com.cn"

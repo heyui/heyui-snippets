@@ -4,6 +4,8 @@
 
 HeyUI tooling for VS Code.
 
+git: https://github.com/heyui/heyui-snippets
+
 ## HeyUI
 
 >A UI components Library.
@@ -182,4 +184,6 @@ visit [heyui.top](http://www.heyui.top).
     </tr>
   </tbody>
 </table>
+
+
 **Enjoy!**
