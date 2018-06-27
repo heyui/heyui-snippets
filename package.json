@@ -1,0 +1,29 @@
+{
+    "name": "heyui-snippets",
+    "displayName": "heyui-snippets",
+    "description": "HeyUI Component Snippets",
+    "version": "0.0.1",
+    "publisher": "vvpvvp",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "vue",
+                "path": "./snippets/vue.json"
+            },
+            {
+                "language": "vue-html",
+                "path": "./snippets/component.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            }
+        ]
+	}
+}

@@ -1,0 +1,222 @@
+{
+	"Affix": {
+		"prefix": "Affix",
+		"body": "<Affix :offsetTop=\"${1}\"></Affix>",
+		"description": "Affix Component"
+	},
+	"BackTop": {
+		"prefix": "BackTop",
+		"body": "<BackTop :target=\"getTarget\" className=\"${1}\"></BackTop>",
+		"description": "BackTop Component"
+	},
+	"Badge": {
+		"prefix": "Badge",
+		"body": "<Badge :count=\"${1}\"></Badge>",
+		"description": "Badge Component"
+	},
+	"Checkbox": {
+		"prefix": "Checkbox",
+		"body": "<Checkbox v-model=\"${1}\" dict=\"${2}\"></Checkbox>",
+		"description": "Checkbox Component"
+	},
+	"h-circle": {
+		"prefix": "h-circle",
+		"body": "<h-circle :percent=\"${1}\"></h-circle>",
+		"description": "h-circle Component"
+	},
+	"Circle": {
+		"prefix": "Circle",
+		"body": "<hCircle :percent=\"${1}\"></hCircle>",
+		"description": "hCircle Component"
+	},
+	"Category": {
+		"prefix": "Category",
+		"body": "<Category v-model=\"${1}\"></Category>",
+		"description": "Category Component"
+	},
+	"Datetime": {
+		"prefix": "Datetime",
+		"body": "<Datetime v-model=\"${1}\"></Datetime>",
+		"description": "Datetime Component"
+	},
+	"DropdownCustom": {
+		"prefix": "DropdownCustom",
+		"body": "<DropdownCustom placement=\"${1}\" className=\"${2}\"></DropdownCustom>",
+		"description": "DropdownCustom Component"
+	},
+	"DropdownMenu": {
+		"prefix": "DropdownMenu",
+		"body": "<DropdownMenu placement=\"${1}\" className=\"${2}\"></DropdownMenu>",
+		"description": "DropdownMenu Component"
+	},
+	"Form": {
+		"prefix": "Form",
+		"body": "<Form ref=\"${1}\"></Form>",
+		"description": "Form Component"
+	},
+	"Menu": {
+		"prefix": "Menu",
+		"body": "<Menu :datas=\"data\" ref=\"menu\" @select=\"triggerSelect\"></Menu>",
+		"description": "Menu Component"
+	},
+	"Modal": {
+		"prefix": "Modal",
+		"body": "<Modal></Modal>",
+		"description": "Modal Component"
+	},
+	"ModalComponent": {
+		"prefix": "ModalComponent",
+		"body": "<ModalComponent></ModalComponent>",
+		"description": "ModalComponent"
+	},
+	"Pagination": {
+		"prefix": "Pagination",
+		"body": "<Pagination :cur=\"pagination.page\" :total=\"pagination.total\" @change=\"changePage\"></Pagination>",
+		"description": "Pagination Component"
+	},
+	"Poptip": {
+		"prefix": "Poptip",
+		"body": "<Poptip></Poptip>",
+		"description": "Poptip Component"
+	},
+	"Progress": {
+		"prefix": "Progress",
+		"body": "<Progress :percent=\"value\"></Progress>",
+		"description": "Progress Component"
+	},
+	"Radio": {
+		"prefix": "Radio",
+		"body": "<Radio v-model=\"${1}\"></Radio>",
+		"description": "Radio Component"
+	},
+	"Rate": {
+		"prefix": "Rate",
+		"body": "<Rate v-model=\"${1}\"></Rate>",
+		"description": "Rate Component"
+	},
+	"Slider": {
+		"prefix": "Slider",
+		"body": "<Slider v-model=\"${1}\"></Slider>",
+		"description": "Slider Component"
+	},
+	"Loading": {
+		"prefix": "Loading",
+		"body": "<Loading :loading=\"loading\"></Loading>",
+		"description": "Loading Component"
+	},
+	"Steps": {
+		"prefix": "Steps",
+		"body": "<Steps :datas=\"${1}\" :step=\"${2}\"></Steps>",
+		"description": "Steps Component"
+	},
+	"Search": {
+		"prefix": "Search",
+		"body": "<Search v-model=\"${1}\" @search=\"search\"></Search>",
+		"description": "Search Component"
+	},
+	"Select": {
+		"prefix": "Select",
+		"body": "<Select v-model=\"${1}\" dict=\"${2}\"></Select>",
+		"description": "Select Component"
+	},
+	"Switch": {
+		"prefix": "Switch",
+		"body": "<hSwitch v-model=\"${1}\"></hSwitch>",
+		"description": "hSwitch Component"
+	},
+	"h-switch": {
+		"prefix": "h-switch",
+		"body": "<h-switch v-model=\"${1}\"></h-switch>",
+		"description": "h-switch Component"
+	},
+	"SwitchList": {
+		"prefix": "SwitchList",
+		"body": "<SwitchList v-model=\"${1}\" :datas=\"${2}\"></SwitchList>",
+		"description": "SwitchList Component"
+	},
+	"Tabs": {
+		"prefix": "Tabs",
+		"body": "<Tabs v-model=\"${1}\" @change=\"${2}\"></Tabs>",
+		"description": "Tabs Component"
+	},
+	"TagInput": {
+		"prefix": "TagInput",
+		"body": "<TagInput v-model=\"${1}\"></TagInput>",
+		"description": "TagInput Component"
+	},
+	"Tree": {
+		"prefix": "Tree",
+		"body": "<Tree ref=\"${1}\" config=\"${2}\"></Tree>",
+		"description": "Tree Component"
+	},
+	"TreePicker": {
+		"prefix": "TreePicker",
+		"body": "<TreePicker v-model=\"${1}\" config=\"${2}\"></TreePicker>",
+		"description": "TreePicker Component"
+	},
+	"NumberInput": {
+		"prefix": "NumberInput",
+		"body": "<NumberInput v-model=\"${1}\"></NumberInput>",
+		"description": "NumberInput Component"
+	},
+	"Tooltip": {
+		"prefix": "Tooltip",
+		"body": "<Tooltip></Tooltip>",
+		"description": "Tooltip Component"
+	},
+	"Uploader": {
+		"prefix": "Uploader",
+		"body": "<Uploader></Uploader>",
+		"description": "Uploader Component"
+	},
+	"AutoComplete": {
+		"prefix": "AutoComplete",
+		"body": "<AutoComplete v-model=\"${1}\" config=\"${2}\"></AutoComplete>",
+		"description": "AutoComplete Component"
+	},
+	"Timeline": {
+		"prefix": "Timeline",
+		"body": "<Timeline></Timeline>",
+		"description": "Timeline Component"
+	},
+	"TextEllipsis": {
+		"prefix": "TextEllipsis",
+		"body": "<TextEllipsis :text=\"${1}\" :height=\"${2}\"></TextEllipsis>",
+		"description": "TextEllipsis Component"
+	},
+	"Table": {
+		"prefix": "Table",
+		"body": "<Table :datas=\"${1}\"></Table>",
+		"description": "Table Component"
+	},
+	"TableItem": {
+		"prefix": "TableItem",
+		"body": [
+			"<TableItem>",
+			"<template slot-scope=\"props\">",
+			"</template>",
+			"</TableItem>"
+		],
+		"description": "TableItem Component"
+	},
+	"Row": {
+		"prefix": "Row",
+		"body": "<Row></Row>",
+		"description": "Row Component"
+	},
+	"Col": {
+		"prefix": "Col",
+		"body": "<Col :width=\"${1}\"></Col>",
+		"description": "Col Component"
+	},
+	"Button": {
+		"prefix": "Button",
+		"body": "<Button color=\"${2:color}\">\"${1:text}\"</Button>",
+		"description": "Button Component"
+	},
+	"ButtonGroup": {
+		"prefix": "ButtonGroup",
+		"body": "<ButtonGroup></ButtonGroup>",
+		"description": "ButtonGroup Component"
+	}
+}

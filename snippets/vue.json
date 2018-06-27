@@ -1,0 +1,7 @@
+{
+	"vue": {
+		"prefix": "vue",
+		"body": "<template>\n <div class=\"\">\n ${1}\n </div>\n</template>\n<script type=\"text/javascript\">\n export default {${2}};\n</script>\n",
+		"description": ""
+	}
+}

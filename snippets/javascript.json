@@ -1,0 +1,7 @@
+{
+	"$Message": {
+		"prefix": "this.$Message",
+		"body": "this./$Message('${1}')",
+		"description": "heyui $Message tips"
+	}
+}
