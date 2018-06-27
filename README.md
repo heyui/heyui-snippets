@@ -1,65 +1,185 @@
-# heyui-snippets README
+# heyui-snippets
 
-This is the README for your extension "heyui-snippets". After writing up a brief description, we recommend including the following sections.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)  
 
-## Features
+HeyUI tooling for VS Code.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## HeyUI
 
-For example if there is an image subfolder under your extension project workspace:
+>A UI components Library.
 
-\!\[feature X\]\(images/feature-x.png\)
+visit [heyui.top](http://www.heyui.top).
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Snippets
 
-## Requirements
+### Vue Snippets
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+![vue snippets](https://raw.github.com/heyui/repositpry/master/heyui-snippets/imgs/vue.gif)
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### HeyUI Snippets
+![component snippets](https://raw.github.com/heyui/repositpry/master/heyui-snippets/imgs/component.gif)
 
-For example:
 
-This extension contributes the following settings:
+### Component Snippets List
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Affix</td>
+    </tr>
+    <tr>
+      <td>BackTop</td>
+    </tr>
+    <tr>
+      <td>Badge</td>
+    </tr>
+    <tr>
+      <td>Checkbox</td>
+    </tr>
+    <tr>
+      <td>Circle</td>
+    </tr>
+    <tr>
+      <td>Category</td>
+    </tr>
+    <tr>
+      <td>Datetime</td>
+    </tr>
+    <tr>
+      <td>DropdownCustom</td>
+    </tr>
+    <tr>
+      <td>DropdownMenu</td>
+    </tr>
+    <tr>
+      <td>Form</td>
+    </tr>
+    <tr>
+      <td>Menu</td>
+    </tr>
+    <tr>
+      <td>Modal</td>
+    </tr>
+    <tr>
+      <td>ModalComponent</td>
+    </tr>
+    <tr>
+      <td>Pagination</td>
+    </tr>
+    <tr>
+      <td>Poptip</td>
+    </tr>
+    <tr>
+      <td>Progress</td>
+    </tr>
+    <tr>
+      <td>Radio</td>
+    </tr>
+    <tr>
+      <td>Rate</td>
+    </tr>
+    <tr>
+      <td>Slider</td>
+    </tr>
+    <tr>
+      <td>Loading</td>
+    </tr>
+    <tr>
+      <td>Steps</td>
+    </tr>
+    <tr>
+      <td>Search</td>
+    </tr>
+    <tr>
+      <td>Select</td>
+    </tr>
+    <tr>
+      <td>Switch</td>
+    </tr>
+    <tr>
+      <td>SwitchList</td>
+    </tr>
+    <tr>
+      <td>Tabs</td>
+    </tr>
+    <tr>
+      <td>TagInput</td>
+    </tr>
+    <tr>
+      <td>Tree</td>
+    </tr>
+    <tr>
+      <td>TreePicker</td>
+    </tr>
+    <tr>
+      <td>NumberInput</td>
+    </tr>
+    <tr>
+      <td>Tooltip</td>
+    </tr>
+    <tr>
+      <td>Uploader</td>
+    </tr>
+    <tr>
+      <td>AutoComplete</td>
+    </tr>
+    <tr>
+      <td>Timeline</td>
+    </tr>
+    <tr>
+      <td>TextEllipsis</td>
+    </tr>
+    <tr>
+      <td>Table</td>
+    </tr>
+    <tr>
+      <td>TableItem</td>
+    </tr>
+    <tr>
+      <td>Row</td>
+    </tr>
+    <tr>
+      <td>Col</td>
+    </tr>
+    <tr>
+      <td>Button</td>
+    </tr>
+    <tr>
+      <td>ButtonGroup</td>
+    </tr>
+  </tbody>
+</table>
 
-## Known Issues
+### Method Snippets List
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>$Message</td>
+    </tr>
+    <tr>
+      <td>$Notice</td>
+    </tr>
+    <tr>
+      <td>$Confirm</td>
+    </tr>
+    <tr>
+      <td>$Loading</td>
+    </tr>
+    <tr>
+      <td>$ScrollIntoView</td>
+    </tr>
+  </tbody>
+</table>
 **Enjoy!**

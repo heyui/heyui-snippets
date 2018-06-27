@@ -1,7 +1,25 @@
 {
 	"vue": {
 		"prefix": "vue",
-		"body": "<template>\n <div class=\"\">\n ${1}\n </div>\n</template>\n<script type=\"text/javascript\">\n export default {${2}};\n</script>\n",
+		"body": [
+			"<style lang=\"less\">",
+			"",
+			"</style>",
+			"<template>",
+			"<div class=\"\">",
+      "",
+			"</div>",
+			"</template>",
+			"<script>",
+			"export default {",
+			"\tdata() {",
+			"\t\treturn {",
+			"\t\t\t",
+			"\t\t}",
+			"\t}",
+			"}",
+			"</script>"
+		],
 		"description": ""
 	}
 }

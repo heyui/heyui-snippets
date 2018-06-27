@@ -1,7 +1,27 @@
 {
 	"$Message": {
 		"prefix": "this.$Message",
-		"body": "this./$Message('${1}')",
-		"description": "heyui $Message tips"
+		"body": "this.\\$Message('${1}')",
+		"description": "heyui $Message"
+	},
+	"$Notice": {
+		"prefix": "this.$Notice",
+		"body": "this.\\$Notice('${1}')",
+		"description": "heyui $Notice"
+	},
+	"$Confirm": {
+		"prefix": "this.$Confirm",
+		"body": "this.\\$Confirm('${1}').then(()=>{${2})",
+		"description": "heyui $Confirm"
+	},
+	"$Loading": {
+		"prefix": "this.$Loading",
+		"body": "this.\\$Loading('${1}')",
+		"description": "heyui $Loading"
+	},
+	"$ScrollIntoView": {
+		"prefix": "this.$ScrollIntoView",
+		"body": "this.\\$ScrollIntoView({${1}})",
+		"description": "heyui $ScrollIntoView"
 	}
 }
