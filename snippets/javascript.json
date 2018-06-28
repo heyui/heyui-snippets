@@ -6,12 +6,12 @@
 	},
 	"$Notice": {
 		"prefix": "this.$Notice",
-		"body": "this.\\$Notice('${1}')",
+		"body": "this.\\$Notice({${1}})",
 		"description": "heyui $Notice"
 	},
 	"$Modal": {
 		"prefix": "this.$Modal",
-		"body": "this.\\$Modal('${1}')",
+		"body": "this.\\$Modal({${1}})",
 		"description": "heyui $Modal"
 	},
 	"$Confirm": {

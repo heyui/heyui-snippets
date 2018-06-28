@@ -1,25 +1,49 @@
 {
-	"vue": {
-		"prefix": "vue",
-		"body": [
-			"<style lang=\"less\">",
-			"",
-			"</style>",
-			"<template>",
-			"<div class=\"\">",
+  "vue": {
+    "prefix": "vue",
+    "body": [
+      "<style lang='less'>",
+      "</style>",
+      "<template>",
+      "  <div class=\"\">",
+      "    ",
+      "  </div>",
+      "</template>",
+      "<script>",
+      "export default {",
+      "  data() {",
+      "    return {",
+      "      ",
+      "    }",
+      "  },",
+      "  mounted() {",
+      "    this.init()",
+      "  },",
+      "  methods: {",
+      "    init() {",
+      "      ",
+      "    }",
+      "  },",
+      "  computed: {",
+      "    ",
+      "  }",
+      "}",
+      "</script>"
+    ],
+    "description": "vue-template"
+  },
+  "jsmodel template": {
+    "prefix": "model",
+    "body": [
+      "import FORMAT from '../format';",
       "",
-			"</div>",
-			"</template>",
-			"<script>",
-			"export default {",
-			"\tdata() {",
-			"\t\treturn {",
-			"\t\t\t",
-			"\t\t}",
-			"\t}",
-			"}",
-			"</script>"
-		],
-		"description": ""
-	}
+      "export default new Model({",
+      "  createdAt: {",
+      "    type: Model.DATE,",
+      "    format: FORMAT.K",
+      "  }",
+      "})"
+    ],
+    "description": "init js-model"
+  }
 }
