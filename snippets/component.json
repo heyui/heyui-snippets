@@ -54,6 +54,11 @@
 		"body": "<Form ref=\"${1}\"></Form>",
 		"description": "Form Component"
 	},
+	"FormItem": {
+		"prefix": "FormItem",
+		"body": "<FormItem label=\"${1}\" prop=\"${2}\"></FormItem>",
+		"description": "FormItem Component"
+	},
 	"Menu": {
 		"prefix": "Menu",
 		"body": "<Menu :datas=\"data\" ref=\"menu\" @select=\"triggerSelect\"></Menu>",

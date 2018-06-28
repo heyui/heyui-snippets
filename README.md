@@ -64,6 +64,9 @@ visit [heyui.top](http://www.heyui.top).
       <td>Form</td>
     </tr>
     <tr>
+      <td>FormItem</td>
+    </tr>
+    <tr>
       <td>Menu</td>
     </tr>
     <tr>
