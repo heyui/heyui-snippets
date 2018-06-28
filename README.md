@@ -4,7 +4,7 @@
 
 HeyUI tooling for VS Code.
 
-git: https://github.com/heyui/heyui-snippets
+git: https://github.com/heyui/heyui-snippets  
 vscode: https://marketplace.visualstudio.com/items?itemName=vvpvvp.heyui-snippets
 
 ## HeyUI
