@@ -1,5 +1,6 @@
 # heyui-snippets
-
+[![](https://vsmarketplacebadge.apphb.com/version-short/vvpvvp.heyui-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=vvpvvp.heyui-snippets)
+[![](https://vsmarketplacebadge.apphb.com/installs-short/vvpvvp.heyui-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=vvpvvp.heyui-snippets)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)  
 
 HeyUI tooling for VS Code.
