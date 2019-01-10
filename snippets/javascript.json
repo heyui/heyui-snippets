@@ -21,12 +21,22 @@
 	},
 	"$Loading": {
 		"prefix": "this.$Loading",
-		"body": "this.\\$Loading('${1}')",
+		"body": "this.\\$Loading(${1})",
 		"description": "heyui $Loading"
+	},
+	"$LoadingBar": {
+		"prefix": "this.$LoadingBar",
+		"body": "this.\\$LoadingBar(${1})",
+		"description": "heyui $LoadingBar"
 	},
 	"$ScrollIntoView": {
 		"prefix": "this.$ScrollIntoView",
 		"body": "this.\\$ScrollIntoView({${1}})",
 		"description": "heyui $ScrollIntoView"
+	},
+	"$Clipboard": {
+		"prefix": "this.$Clipboard",
+		"body": "this.\\$Clipboard({${1}})",
+		"description": "heyui $Clipboard"
 	}
 }

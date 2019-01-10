@@ -184,6 +184,11 @@
 		"body": "<Timeline></Timeline>",
 		"description": "Timeline Component"
 	},
+	"TimelineItem": {
+		"prefix": "TimelineItem",
+		"body": "<TimelineItem>${1}</TimelineItem>",
+		"description": "TimelineItem Component"
+	},
 	"TextEllipsis": {
 		"prefix": "TextEllipsis",
 		"body": "<TextEllipsis :text=\"${1}\" :height=\"${2}\"></TextEllipsis>",
@@ -223,5 +228,55 @@
 		"prefix": "ButtonGroup",
 		"body": "<ButtonGroup></ButtonGroup>",
 		"description": "ButtonGroup Component"
+	},
+	"Carousel": {
+		"prefix": "Carousel",
+		"body": "<Carousel :datas=\"${1}\"></Carousel>",
+		"description": "Carousel Component"
+	},
+	"Transfer": {
+		"prefix": "Transfer",
+		"body": "<Transfer v-model=\"${1}\" :datas=\"${2}\"></Transfer>",
+		"description": "Transfer Component"
+	},
+	"Collapse": {
+		"prefix": "Collapse",
+		"body": "<Collapse v-model=\"${1}\"></Collapse>",
+		"description": "Collapse Component"
+	},
+	"CollapseItem": {
+		"prefix": "CollapseItem",
+		"body": "<CollapseItem title=\"${1}\">${2}</CollapseItem>",
+		"description": "CollapseItem Component"
+	},
+	"Avatar": {
+		"prefix": "Avatar",
+		"body": "<Avatar :src=\"${1}\">${2}</Avatar>",
+		"description": "Avatar Component"
+	},
+	"Layout": {
+		"prefix": "Layout",
+		"body": "<Layout>${1}</Layout>",
+		"description": "Layout Component"
+	},
+	"Content": {
+		"prefix": "Content",
+		"body": "<Content>${1}</Content>",
+		"description": "Content Component"
+	},
+	"Sider": {
+		"prefix": "Sider",
+		"body": "<Sider>${1}</Sider>",
+		"description": "Sider Component"
+	},
+	"HHeader": {
+		"prefix": "HHeader",
+		"body": "<HHeader>${1}</HHeader>",
+		"description": "HHeader Component"
+	},
+	"HFooter": {
+		"prefix": "HFooter",
+		"body": "<HFooter>${1}</HFooter>",
+		"description": "HFooter Component"
 	}
 }
