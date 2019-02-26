@@ -6,6 +6,9 @@
     "publisher": "vvpvvp",
     "license": "MIT",
     "icon": "imgs/heyui.png",
+    "scripts": {
+        "publish": "vsce publish"
+    },
 	"bugs": {
 		"url": "https://github.com/heyui/heyui-snippets/issues",
 		"email": "alias8516@sina.com.cn"
