@@ -1,7 +1,7 @@
 {
 	"$Message": {
 		"prefix": "this.$Message",
-		"body": "this.\\$Message('${1}')",
+		"body": "this.\\$Message(${1})",
 		"description": "heyui $Message"
 	},
 	"$Notice": {
@@ -16,7 +16,7 @@
 	},
 	"$Confirm": {
 		"prefix": "this.$Confirm",
-		"body": "this.\\$Confirm('${1}').then(()=>{${2}})",
+		"body": "this.\\$Confirm(${1}).then(()=>{${2}})",
 		"description": "heyui $Confirm"
 	},
 	"$Loading": {
@@ -38,5 +38,10 @@
 		"prefix": "this.$Clipboard",
 		"body": "this.\\$Clipboard({${1}})",
 		"description": "heyui $Clipboard"
+	},
+	"$ImagePreview": {
+		"prefix": "this.$ImagePreview",
+		"body": "this.\\$ImagePreview({${1}})",
+		"description": "heyui $ImagePreview"
 	}
 }

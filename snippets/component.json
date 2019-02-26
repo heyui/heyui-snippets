@@ -202,10 +202,7 @@
 	"TableItem": {
 		"prefix": "TableItem",
 		"body": [
-			"<TableItem>",
-			"<template slot-scope=\"props\">",
-			"</template>",
-			"</TableItem>"
+			"<TableItem><template slot-scope=\"{data, index}\"></template></TableItem>"
 		],
 		"description": "TableItem Component"
 	},
@@ -213,6 +210,11 @@
 		"prefix": "Row",
 		"body": "<Row></Row>",
 		"description": "Row Component"
+	},
+	"Cell": {
+		"prefix": "Cell",
+		"body": "<Cell :width=\"${1}\"></Cell>",
+		"description": "Cell Component"
 	},
 	"Col": {
 		"prefix": "Col",
